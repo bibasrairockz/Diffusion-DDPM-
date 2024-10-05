@@ -32,11 +32,24 @@ Diffusion-DDPM/
 
 To get started with the **Diffusion-DDPM** project, follow these steps:
 
-1. **Clone the Repository**:
+**Clone the Repository**:
    ```bash
    git clone https://github.com/bibasrairockz/Diffusion-DDPM.git
    cd Diffusion-DDPM
-   ```
+   ```  
+## Usage
+To use the Diffusion-DDPM model, you can run the training or generation scripts provided. Here’s a basic example of how to train the model:
+
+```bash
+python ddpm.py --dataset_path <path_to_your_dataset> --batch_size <your_batch_size>
+```
+
+## For image generation:
+
+```bash
+python ddpm_unconditionally.py --model_path <path_to_your_model>
+```
+Make sure to replace <path_to_your_dataset> and <path_to_your_model> with the actual paths on your system.
    
 
 
