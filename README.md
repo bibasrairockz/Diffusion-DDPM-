@@ -18,6 +18,16 @@ Results:
 - **Image Generation**: Generate high-quality images from random noise.
 - **Noise Testing**: Evaluate the model's performance in noise reduction.
 
+Diffusion-DDPM/
+├── README.md               # Project overview and documentation
+├── ddpm.py                 # Main script for training the DDPM model
+├── ddpm_unconditionally.py  # Script for unconditional image generation
+├── modules.py              # Contains the model architecture and layers
+├── noise_test.py           # Test various noise levels and their impact on image quality
+├── utils.py                # Utility functions for data processing and augmentation
+└── requirements.txt        # Python package dependencies
+
+
 ## Installation
 
 To get started with the **Diffusion-DDPM** project, follow these steps:
