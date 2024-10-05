@@ -17,7 +17,7 @@ Results:
 - **Customizable Training**: Easy configuration of hyperparameters and training settings.
 - **Image Generation**: Generate high-quality images from random noise.
 - **Noise Testing**: Evaluate the model's performance in noise reduction.
-
+```bash
 Diffusion-DDPM/
 ├── README.md               # Project overview and documentation
 ├── ddpm.py                 # Main script for training the DDPM model
@@ -26,7 +26,7 @@ Diffusion-DDPM/
 ├── noise_test.py           # Test various noise levels and their impact on image quality
 ├── utils.py                # Utility functions for data processing and augmentation
 └── requirements.txt        # Python package dependencies
-
+```
 
 ## Installation
 
